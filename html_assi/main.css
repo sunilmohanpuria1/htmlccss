@@ -78,7 +78,7 @@ height:300px;
 width:50%;
 margin-top: 300px;
 margin-right: 150px;
-margin-left: 400px;
+margin-left: 300px;
 }
 
 #next{
@@ -87,17 +87,17 @@ background:green;
 
 #inputbox{
 height:100px;
-margin-left: 600px;
+margin-left: 400px;
 
 }
 
 #list1{ display: inline-block; 
 width:50%;
-margin-left: 400px;
+margin-left: 300px;
 background:red;
 
 }
-#temp{
+#temp{display: inline-block;
 margin-left: 600px;
 background:red;
 margin-right: 800px;
