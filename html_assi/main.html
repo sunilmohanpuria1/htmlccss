@@ -3,6 +3,7 @@
     <head>
 		<title>"HTML"</title>
 		<link rel="stylesheet" href="main.css">
+		<script type="text/javascript" src="main.js"></script>
 	</head>
 <body>
 	<div id="container">
@@ -25,31 +26,20 @@
 	</div>
 	
 	<div id="Mywork" >
-	    <div is="next">
-		<div id="inputbox">	
-  		<p>
-  		<label>Input Box</label>
-  		<input id="inp" type="text"></p>
+	    <div id =addinfo>
+			<form>
+				Enter Info. :<input type="text" id="cardEntry"/>
+				<button id="addButton" onclick="addItem()" >Add Information
+				</button>
+			</form>
 		</div>
-	    </div>
-
-		<span id="list">
-   			<ul style="list-style-type: none; display: inline-block;">
-      			<li>List Item1</li>
-      			<li>List Item2</li>
-   			</ul>
-
-   			<ul style="list-style-type: none; display: inline-block;">
-      			<li>List Item3</li>
-      			<li>List Item4</li>
-   			</ul>
-
-			<ul style="list-style-type: none; display: inline-block;">
-      			<li>List Item5</li>
-      			<li>List Item6</li>
-   			</ul>
-		</span>
-
+		<div>
+			<h2>Added Information </h2>
+			<p>Click on 'X' to delete the Information</p>
+			<ul id="infoList">
+			</ul>
+		</div>
 	</div>	
-	
-</body>
+
+	</body>
+</html>
