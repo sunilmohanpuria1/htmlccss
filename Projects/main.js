@@ -1,0 +1,1 @@
+const { sequelize, users,contacts } = require('./sequalize_connection');

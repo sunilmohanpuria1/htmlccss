@@ -5,6 +5,10 @@ import VueRouter from 'vue-router';
 import HomePage from './components/HomePage.vue';
 import useradd from './components/useradd.vue';
 
+import BootstrapVue from 'bootstrap-vue'
+
+Vue.use(BootstrapVue)
+
 Vue.use(VueRouter)
 const routes = [
   { path: '/', component: HomePage },

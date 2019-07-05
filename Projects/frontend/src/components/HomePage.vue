@@ -1,22 +1,30 @@
 <template>
 <div>
- {{Header}}
-
-  </div>
+ <headerfile>
+ </headerfile>
+ <userdata>
+ </userdata>
+ <footerfile>
+ </footerfile>
+</div>
 </template>
 
 <script>
-import Header from './components/header.vue'
+import headerfile from './headerfile.vue'
+import footerfile from './footer'
+import userdata from './userdata'
 export default {
   name: 'HomePage',
   props: {
-    msg: String
+   
   },
   components:{
-    Header
+    footerfile,
+    headerfile,
+    userdata
   }
   
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
+
